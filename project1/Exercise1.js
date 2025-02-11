@@ -1,5 +1,5 @@
 const Welcome=alert("Welcome to Merath kabab House");
-const day =prompt ("Enter your day");
+const day =prompt ("Enter your day").toLowerCase();
 // if (day != "monday" || "tuesday" || "wednesday" || "thursday" || "friday" || "saturday" || "sunday")
 //     {console.log("invalid day");} 
 const budget =prompt("Enter your budget");
@@ -27,13 +27,16 @@ if (budget < 1){
             alert("No deals available")
             console.log("No deals available");
         }
-    }else if (day == "sunday"){
-        var Desert =prompt("Do you want Desert?")
+    }else if (day == "sunday" && budget >=1500){
+        let Desert =prompt("Do you want Desert?").toLowerCase()
         if(budget >= 1500 && Desert == 'yes'){
+            alert("Mega Deal and Desert")
                 console.log("Mega Deal and Desert");
             } else if(budget >= 1500) {
-            console.log("Mega Deal");
+                alert("Mega Deal")
+                console.log("Mega Deal");
     }else{
+        alert("No deals available")
         console.log("No deals available");
     }
 }
