@@ -1,4 +1,4 @@
-/ const arr = ["A","B", "C","a","b", {a: 2}];
+// const arr = ["A","B", "C","a","b", {a: 2}];
 // console.log(arr.indexOf({a: 2}));
 
 // const nameReverse = "we are learning javascript"

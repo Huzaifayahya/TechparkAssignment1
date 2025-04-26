@@ -35,7 +35,7 @@ console.log("arr:", arr);
 
 console.log("value at index 3: ", arr[3]);
 
-console.log("value at key firstName: ", human["firstName1"]);
+console.log("value at key firstName: ", human["firstName"]);
 
 console.log("x", x);
 

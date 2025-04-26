@@ -18,8 +18,8 @@ console.log(0 == false)
 
 console.log(-1 == false);
 
-const loggedIn = "a";
-const proSubscriber = "";
+const loggedIn = "yes";
+const proSubscriber = "yes";
 
 if (loggedIn == false){
     console.log("Please login first to see the data");
